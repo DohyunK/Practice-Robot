@@ -1,0 +1,52 @@
+package org.usfirst.frc.team115.robot;
+
+/**
+ * The RobotMap is a mapping from the ports sensors and actuators are wired into
+ * to a variable name. This provides flexibility changing wiring, makes checking
+ * the wiring easier and significantly reduces the number of magic numbers
+ * floating around.
+ *
+ * @author Dohyun Kim
+ */
+public class RobotMap {
+	// Drive Motors
+	public static final int DRIVE_MOTOR_BACKLEFT = 1;
+	public static final int DRIVE_MOTOR_BACKRIGHT = 10;
+	public static final int DRIVE_MOTOR_FRONTLEFT = 2;
+	public static final int DRIVE_MOTOR_FRONTRIGHT = 9;
+
+	// Joysticks
+	public static final int JOYSTICK_DRIVE = 0;
+	public static final int JOYSTICK_XBOX = 1;
+
+	// Xbox Buttons
+	public static final int XBOX_A = 1;
+	public static final int XBOX_B = 2;
+	public static final int XBOX_Y = 4;
+	public static final int XBOX_X = 3;
+	public static final int XBOX_LB = 5;
+	public static final int XBOX_RB = 6;
+	public static final int XBOX_BACK = 7;
+	public static final int XBOX_START = 8;
+	public static final int XBOX_LAXIS_PRESS = 9;
+	public static final int XBOX_RAXIS_PRESS = 10;
+	public static final int XBOX_RT = 3;
+	public static final int XBOX_LT = 2;
+	public static final int XBOX_AXIS_LX = 0;
+	public static final int XBOX_AXIS_LY = 1;
+	public static final int XBOX_AXIS_RX = 4;
+	public static final int XBOX_AXIS_RY = 5;
+
+	public static final double DRIVE_MAX_ACCEL = 0;
+	public static final int DRIVE_POSITION_KP = 0;
+	public static final int DRIVE_POSITION_KI = 0;
+	public static final int DRIVE_POSITION_KD = 0;
+	public static final int DRIVE_POSITION_KV = 0;
+	public static final int DRIVE_POSITION_KA = 0;
+	public static final int DRIVE_ON_TARGET_ERROR = 0;
+
+	public static final int DRIVE_STRAIGHT_KP = 0;
+	public static final int DRIVE_STRAIGHT_KI = 0;
+	public static final int DRIVE_STRAIGHT_KD = 0;
+
+}
