@@ -17,25 +17,6 @@ public class RobotMap {
 
 	// Joysticks
 	public static final int JOYSTICK_DRIVE = 0;
-	public static final int JOYSTICK_XBOX = 1;
-
-	// Xbox Buttons
-	public static final int XBOX_A = 1;
-	public static final int XBOX_B = 2;
-	public static final int XBOX_Y = 4;
-	public static final int XBOX_X = 3;
-	public static final int XBOX_LB = 5;
-	public static final int XBOX_RB = 6;
-	public static final int XBOX_BACK = 7;
-	public static final int XBOX_START = 8;
-	public static final int XBOX_LAXIS_PRESS = 9;
-	public static final int XBOX_RAXIS_PRESS = 10;
-	public static final int XBOX_RT = 3;
-	public static final int XBOX_LT = 2;
-	public static final int XBOX_AXIS_LX = 0;
-	public static final int XBOX_AXIS_LY = 1;
-	public static final int XBOX_AXIS_RX = 4;
-	public static final int XBOX_AXIS_RY = 5;
 
 	public static final double DRIVE_MAX_ACCEL = 0;
 	public static final int DRIVE_POSITION_KP = 0;
